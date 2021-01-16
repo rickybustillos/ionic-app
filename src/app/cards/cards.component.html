@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+
+  <h4>Cartões</h4>
+  <ion-card color="danger">
+    <ion-img src="https://source.unsplash.com/random/800x300"></ion-img>
+    <ion-card-content>
+      <ion-card-title>Esse é meu título</ion-card-title>
+      <p>Logo, estive por aqui testando como funciona os cards do Ionic Framework. O mais louco é que tem mais atributos para explorar!</p>
+    </ion-card-content>
+  </ion-card>
+
+  <h4>Cartões com cabeçalho</h4>
+  <ion-card color="danger">
+    <ion-card-header>
+      <ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>
+      <ion-card-title>Awesome Title</ion-card-title>
+    </ion-card-header>
+    <ion-img src="https://source.unsplash.com/random/800x300"></ion-img>
+    <ion-card-content>
+      <p>Logo, estive por aqui testando como funciona os cards do Ionic Framework. O mais louco é que tem mais atributos para explorar!</p>
+    </ion-card-content>
+  </ion-card>
+
+  <h4>Cartões com listagem de itens</h4>
+  <ion-card>
+
+    <ion-item href="http://google.com.br">
+      <ion-icon slot="start" name="add"></ion-icon>
+      <ion-label>1. Aqui é um label, localizado dentro de um ion item.</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>2. Aqui é outro label, localizado dentro de outro ion item.</ion-label>
+    </ion-item>
+
+  </ion-card>
+
+
+</ion-content>
