@@ -4,6 +4,7 @@ import { BotoesComponent } from './botoes/botoes.component';
 import { CardsComponent } from './cards/cards.component';
 import { ListasComponent } from './listas/listas.component';
 import { EntradaComponent } from './dados/entrada/entrada.component';
+import { GridComponent } from './grid/grid.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,10 @@ const routes: Routes = [
     pathMatch: 'full',
     component: EntradaComponent
   },
+  {
+    path: 'grid',
+    pathMatch: 'full',
+    component: GridComponent
   },
 ];
 
